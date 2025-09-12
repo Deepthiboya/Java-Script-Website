@@ -161,34 +161,3 @@ if (km <= 5) {
 console.log("Total Price = " + price);
 */
 
-
-
-let n = 5;
-let i = 1;
-
-while (i <= 10) {
-  console.log(n + " x " + i + " = " + (n * i));
-  i++;
-}
-
-
-
-let n = 5;  
-let i = 1;   
-
-do {
-  console.log(n + " x " + i + " = " + (n * i));
-  i++;
-} while (i <= 10);
-
-
-
-
-  let i = 1;
-  while (i <= 10) {
-    console.log(`${n} x ${i} = ${n * i}`);
-    i++;
-  }
-}
-multiplicationTable(5);
-

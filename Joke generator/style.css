@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f7fa;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background: #fff;
+  padding: 24px 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 2rem;
+}
+.input-container {
+  margin-bottom: 20px;
+}
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  margin: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  font-size: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  outline: none;
+}
+button:hover,
+button:focus {
+  background: #0056b3;
+  box-shadow: 0 2px 8px rgba(0,123,255,0.18);
+}
+.joke-box {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  min-height: 68px;
+  transition: background 0.2s;
+}
+#setup {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #222;
+}
+#punchline {
+  color: #555;
+  font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 16px 6px;
+    max-width: 95vw;
+  }
+  h1 { font-size: 1.4rem;}
+}
